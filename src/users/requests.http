@@ -1,0 +1,71 @@
+###POST http://localhost:3000/auth/signup
+###content-type: application/json
+
+###{
+    ###"email": "dfsfdsdf@fdsfdsf.com",
+    ###"password": "123456"
+###}
+
+###GET http://localhost:3000/auth/1
+
+
+###GET http://localhost:3000/auth?email=dfsfdsdf@fdsfdsf.com
+
+
+###DELETE http://localhost:3000/auth/1
+
+###PATCH http://localhost:3000/auth/2
+###content-type: application/json
+
+###{
+    ###"email": "updated@mail.com"
+    
+    
+###}
+
+###GET http://localhost:3000/auth/2
+
+###POST http://localhost:3000/auth/signup
+###content-type: application/json
+
+###{
+   ### "email": "uniquemail@try.com",
+    ###"password": "trypswrd123"
+###}
+
+###POST http://localhost:3000/auth/signin
+###content-type: application/json
+
+###{
+    ###"email": "uniquemail@try.com",
+    ###"password": "trypswrd123"
+###}
+
+###GET http://localhost:3000/auth/colors/red
+
+###GET http://localhost:3000/auth/colors
+
+###POST http://localhost:3000/auth/signup
+###content-type: application/json
+
+###{
+    ###"email": "test@test.com",
+    ###"password": "test123456"
+###}
+
+###POST http://localhost:3000/auth/signin
+###content-type: application/json
+
+###{
+    ###"email": "test@test.com",
+    ###"password": "test123456"
+    
+###}
+
+GET http://localhost:3000/auth/whoami
+
+
+
+
+
+
