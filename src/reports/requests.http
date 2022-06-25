@@ -10,3 +10,15 @@ content-type: application/json
   "lat": 0,
   "price": 500000
 }
+
+### Approve an existing report
+
+PATCH http://localhost:3000/reports/7
+content-type: application/json
+
+{
+  "approved": false
+}
+
+### Get an estimate for an existing vehicle
+GET http://localhost:3000/reports?make=Volkswagen&model=Caddy&lng=0&lat=0&mileage=20000&year=1980
