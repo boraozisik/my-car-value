@@ -1,3 +1,21 @@
+# My Car Value
+
+This is a car information application.
+
+
+## Features
+
+- Users sign up with e-mail and password.
+- Users get an estimate for how much their car is worth based on the make/model/year/mileage.
+- Users can report what they sold their vehicles for.
+- Admins have to approve reported sales.
+
+
+## Used In Application
+
+- Language: [NestJS](https://nestjs.com/) and [TypeScript](https://www.typescriptlang.org/).
+- Code Formatting: [Prettier](https://prettier.io/)
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
